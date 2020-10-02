@@ -8,5 +8,9 @@ public class UserRegistration{
 			String pattern = "[A-Z]*[a-zA-Z]{3,}$";
 			if(lname.matches(pattern))
 				System.out.println(lname);
-      
-
+                        else 
+				return;
+		}catch(Exception e)
+		{return ;}
+	}
+}
