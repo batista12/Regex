@@ -1,6 +1,3 @@
-package com.capgemini.helloworld;
-
-
 import java.util.Scanner;
 public class Hello1{
 	public static void main(String[] args){
@@ -11,6 +8,17 @@ public class Hello1{
 			String pattern = "[A-Z]*[a-zA-Z]{3,}$";
 			if(lname.matches(pattern))
 				System.out.println(lname);
+      
+import java.util.Scanner;
+public class Hello{
+	public static void main(String[] args){
+		try{
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter the first name");
+			String fname = sc.next();
+			String pattern = "[A-Z]*[a-zA-Z]{3,}$";
+			if(fname.matches(pattern))
+				System.out.println(fname);
 			else return;
 		}catch(Exception e){return;}}
 }
